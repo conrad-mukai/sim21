@@ -1,0 +1,18 @@
+{
+  "players": [
+    {
+      "name": "test-player",
+      "strategies": {
+        "betting": {
+          "class": "sim21.strategies:ConstantBettingStrategy"
+        },
+        "playing": {
+          "class": "sim21.strategies:Basic"
+        }
+      }
+    }
+  ],
+  "game": {
+    "DAS": true
+  }
+}

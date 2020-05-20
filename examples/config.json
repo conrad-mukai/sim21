@@ -1,0 +1,70 @@
+{
+  "players": [
+    {
+      "name": "simple-1",
+      "strategies": {
+        "betting": {
+          "class": "sim21.strategies:ConstantBettingStrategy"
+        },
+        "playing": {
+          "class": "sim21.strategies:Simple"
+        }
+      }
+    },
+    {
+      "name": "simple-2",
+      "strategies": {
+        "betting": {
+          "class": "sim21.strategies:ConstantBettingStrategy"
+        },
+        "playing": {
+          "class": "sim21.strategies:Simple"
+        }
+      }
+    },
+    {
+      "name": "simple-3",
+      "strategies": {
+        "betting": {
+          "class": "sim21.strategies:ConstantBettingStrategy"
+        },
+        "playing": {
+          "class": "sim21.strategies:Simple"
+        }
+      }
+    },
+    {
+      "name": "basic-1",
+      "strategies": {
+        "betting": {
+          "class": "sim21.strategies:ConstantBettingStrategy"
+        },
+        "playing": {
+          "class": "sim21.strategies:Basic"
+        }
+      }
+    },
+    {
+      "name": "basic-2",
+      "strategies": {
+        "betting": {
+          "class": "sim21.strategies:ConstantBettingStrategy"
+        },
+        "playing": {
+          "class": "sim21.strategies:Basic"
+        }
+      }
+    },
+    {
+      "name": "basic-3",
+      "strategies": {
+        "betting": {
+          "class": "sim21.strategies:ConstantBettingStrategy"
+        },
+        "playing": {
+          "class": "sim21.strategies:Basic"
+        }
+      }
+    }
+  ]
+}
