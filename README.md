@@ -8,7 +8,7 @@ This script allows the user to test betting and playing strategies for an
 American casino version of blackjack. The rules of play are described in the
 following Wikipedia article:
 
-    https://en.wikipedia.org/wiki/Blackjack
+[https://en.wikipedia.org/wiki/Blackjack](https://en.wikipedia.org/wiki/Blackjack)
 
 The simulation sets up a table with between 1 and 7 players. Each player is
 configured with a betting strategy and a playing strategy. At the beginning of
