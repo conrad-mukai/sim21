@@ -12,6 +12,7 @@ setup(
     description='Casino Blackjack Simulation',
     author='Conrad Mukai',
     author_email='conrad@mukai-home.net',
+    url="https://github.com/conrad-mukai/sim21",
     packages=['sim21', 'sim21.strategies'],
     install_requires=[
         'jsonschema',
