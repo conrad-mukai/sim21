@@ -88,9 +88,9 @@ The 2 required arguments are `nsim`, the number of simulations and `cfile`, the
 configuration file. The optional `quiet` and `rfile` arguments are generally
 useful for testing. The `ngame` option specifies the number of games played
 before the simulation is reset. The total number of games played is
-`nsim * ngame`. Finally `sformat` how the resulting statistics are displayed.
-The `normal` setting displays results normalized by number of games or number
-of hands. The `raw` settings displays raw counts.
+`nsim * ngame`. Finally `sformat` specifies how the resulting statistics are
+displayed. The `normal` setting displays results normalized by number of games
+or number of hands. The `raw` settings displays raw counts.
 
 ## Configuration
 
