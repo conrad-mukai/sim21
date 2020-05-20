@@ -172,8 +172,6 @@ be implemented to define a strategy. These functions are passed a player object
 which gives the function access to player attributes like their bankroll
 balance or their hand.
 
-Examples of strategies 
-
 ### Betting Strategy
 
 The betting strategy class must define the following:
