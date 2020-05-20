@@ -213,3 +213,28 @@ In addition the `tests.base` module contains a function decorator called
 `test_decorator`. This decorator is for methods in a test case. If a test fails
 or errors the decorator will save the recording made by `run_sim21` into a file
 with the name of the test; otherwise it removes the recording.
+
+## Analysis
+
+After writing the initial version of this I found that there was significant
+variation in the results. To address this the number simulations was increased
+by wrapping another loop around the original concept of playing a set number of
+games. But even after doing that the results were still uneven at low numbers
+of simulations. To determine what a satisfactory number of simulations are
+required to produce reliable results I ran `sim21` 50 times increasing the
+number of simulations each time. I initially started with an `nsim` of 10, and
+ran sets of data for values of 20, 50, 100, 200, and 500.
+
+The distribution of data is bell shaped so inferring a normal distribution the
+99% confidence interval for each of the data sets were plotted with the results
+shown below.
+
+![Simple](images/simple.png "Simple Strategy - 99% Confidence Interval")
+
+![Basic](images/basic.png "Basic Strategy - 99% Confidence Interval")
+
+Since the only noise in the system is from a random number generator the
+confidence interval is extremely low (no real world noise like measurement
+errors). But even with that the confidence limit drops precipitously from 10
+to 100 at which point it begins to level off. Based on that using 100 gives a
+good trade-off between accuracy and execution time.
