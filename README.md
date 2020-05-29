@@ -43,7 +43,7 @@ specific to this program. Games refers to how many initial games were played
 for the particular combination of betting and playing strategy. Hands are the
 number of games plus the number of splits. The wins, loses, and pushes are the
 percentage of each result for all hands. Blackjacks, doubles, splits, and
-surrenders are the percentage occurence of each event during the course of
+surrenders are the percentage occurrence of each event during the course of
 play. Finally, outcome is the average change in a players bankroll per game.
 
 ## Requirements
